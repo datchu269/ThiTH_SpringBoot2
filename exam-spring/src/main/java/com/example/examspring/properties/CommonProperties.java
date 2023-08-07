@@ -12,14 +12,3 @@ public class CommonProperties {
     @Value("${application.common.default-page-number}")
     private Integer pageNumber;
 }
-
-
-//C1
-//@Data // không cần viết get set
-//@ConfigurationProperties(value = "default-page-size")  // Ăn cấu hình config
-//public class CommonProperties {
-//    @Value("application.default-page-size")
-//    private Integer pageSize;
-//    @Value("application.default-page-number")
-//    private Integer pageNumber;
-//}

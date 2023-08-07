@@ -12,6 +12,5 @@ import lombok.experimental.SuperBuilder;
 public class EmployeeDto extends PageDto<PageDto> {
     private long id;
     private String name;
-    private String birthDay;
-    private String address;
+    private int wage;
 }

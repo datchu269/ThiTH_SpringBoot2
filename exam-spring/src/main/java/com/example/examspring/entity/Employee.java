@@ -18,8 +18,10 @@ public class Employee {
     private long id;
     @Column(name = "employee_name", nullable = false)
     private String name;
-    @Column(name = "employee_birth_day", nullable = false)
-    private String birthDay;
-    @Column(name = "employee_address")
-    private String address;
+//    @Column(name = "employee_birth_day", nullable = false)
+//    private String birthDay;
+//    @Column(name = "employee_address")
+//    private String address;
+    @Column(name = "employee_wage", nullable = false)
+    private int wage;
 }

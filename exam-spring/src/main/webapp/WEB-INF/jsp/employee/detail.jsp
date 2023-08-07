@@ -15,8 +15,7 @@
             <div class="card-body">
                 <h5 class="card-title">ID: ${employee.id}</h5>
                 <p class="card-text">Name: ${employee.name}</p>
-                <p class="card-text">Birth Day: ${employee.birthDay}</p>
-                <p class="card-text">Address: ${employee.address}</p>
+                <p class="card-text">Wage: ${employee.wage}</p>
             </div>
         </div>
         <div class="mt-3">

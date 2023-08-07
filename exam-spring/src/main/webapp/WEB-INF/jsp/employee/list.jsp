@@ -40,8 +40,7 @@
         <tr>
             <th scope="col">#</th>
             <th scope="col">Name</th>
-            <th scope="col">Birthday</th>
-            <th scope="col">Address</th>
+            <th scope="col">Wage</th>
             <th scope="col" style="width: 20%;">Action</th>
         </tr>
         </thead>
@@ -50,8 +49,7 @@
             <tr>
                 <th scope="row">${item.id}</th>
                 <td>${item.name}</td>
-                <td>${item.birthDay}</td>
-                <td>${item.address}</td>
+                <td>${item.wage}</td>
                 <td>
                     <div class="flex-content">
                         <a href="/employee?id=${item.id}" class="btn btn-outline-primary">Detail</a>
